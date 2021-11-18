@@ -44,7 +44,7 @@ std::string Relation::ToStringTups() {
         for (int i = 0; i < tup.Size(); ++i) {
             toReturn += header.GetVal(i) + "=" + tup.GetVal(i);
             if (i < tup.Size() - 1) {
-                toReturn += ",";
+                toReturn += ", ";
             }
         }
         toReturn += "\n";
