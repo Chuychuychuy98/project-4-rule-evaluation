@@ -22,11 +22,14 @@ public:
     std::string ToString();
     void Interpret();
     Relation EvaluatePredicate(Predicate* p);
+    Relation EvaluateRule(Rule* r);
+
 private:
     DatalogProgram *program;
     Database *database = new Database();
     void AddScheme(Predicate* scheme);
     void AddFact(Predicate* fact);
+    std::vector<std::string> GetDBNames(Rule* r);
 };
 
 
