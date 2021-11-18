@@ -3,3 +3,11 @@
 //
 
 #include "Database.h"
+
+int Database::NumTups() {
+    int num = 0;
+    for (auto p : relations) {
+        num += p.second->Size();
+    }
+    return num;
+}

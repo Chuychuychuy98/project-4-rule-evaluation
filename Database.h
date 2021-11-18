@@ -18,9 +18,9 @@ public:
     void RemoveRelation(const std::string &name) {relations.erase(name);}
     Relation* GetRelation(const std::string &name) {return relations.at(name);}
     std::map<std::string, Relation*> GetRelations() {return relations;}
+    int NumTups();
 
 private:
-    //std::set<Relation*> relations;
     std::map<std::string, Relation*> relations;
 };
 
