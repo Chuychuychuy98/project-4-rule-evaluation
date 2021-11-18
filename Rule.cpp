@@ -12,5 +12,5 @@ std::string Rule::ToString() {
             toReturn += ",";
         }
     }
-    return toReturn;
+    return toReturn + ".";
 }
