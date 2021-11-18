@@ -92,7 +92,7 @@ std::vector<std::string> Interpreter::GetDBNames(Rule* r) {
     std::vector<std::string> names;
     for (Parameter* param : r->GetHead()->GetParameters()) {
         for (Predicate* pred : r->GetPredicates()) {
-            for (int i = 0; i < pred->GetParameters().size(); ++i) {
+            for (unsigned int i = 0; i < pred->GetParameters().size(); ++i) {
                 if (param->GetId() == pred->GetParameters().at(i)->GetId()) {
                     bool found = false;
                     for (std::string s : names) {
@@ -121,14 +121,14 @@ Relation Interpreter::EvaluateRule(Rule *r) {
     //Step 2: Join the applicable relations
     Relation rel = rels.at(0);
     if (rels.size() > 1) {
-        for (int i = 1; i < rels.size(); ++i) {
+        for (unsigned int i = 1; i < rels.size(); ++i) {
             rel = rel.Join(rels.at(i));
         }
     }
     //Step 3: Project to remove unnecessary columns/reorder
     std::vector<int> indices;
     std::vector<std::string> newAttr;
-    for (int i = 0; i < r->GetHead()->GetParameters().size(); ++i) {
+    for (unsigned int i = 0; i < r->GetHead()->GetParameters().size(); ++i) {
         for (int j = 0; j < rel.GetHeader().Size(); ++j) {
             if (rel.GetHeader().GetVal(j) == r->GetHead()->GetParameters().at(i)->GetId()) {
                 indices.push_back(j);
