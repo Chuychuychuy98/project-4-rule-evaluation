@@ -29,7 +29,7 @@ private:
     Database *database = new Database();
     void AddScheme(Predicate* scheme);
     void AddFact(Predicate* fact);
-    std::vector<std::string> GetDBNames(Rule* r);
+    std::vector<std::string> GetDBNames(Rule* r/*, Relation rel*/);
 };
 
 

@@ -90,28 +90,17 @@ std::string Interpreter::ToString() {
 
 std::vector<std::string> Interpreter::GetDBNames(Rule* r) {
     std::vector<std::string> names;
-    for (Parameter* param : r->GetHead()->GetParameters()) {
-        for (Predicate* pred : r->GetPredicates()) {
-            for (unsigned int i = 0; i < pred->GetParameters().size(); ++i) {
-                if (param->GetId() == pred->GetParameters().at(i)->GetId()) {
-                    bool found = false;
-                    for (std::string s : names) {
-                        if (s == database->GetRelation(pred->GetId())->GetHeader().GetVal(i)) {
-                            found = true;
-                        }
-                    }
-                    if (!found) {
-                        names.push_back(database->GetRelation(pred->GetId())->GetHeader().GetVal(i));
-                    }
-                }
-            }
-        }
+    //for (Parameter* param : r->GetHead()->GetParameters()) {
+    for (int i = 0; i < r->GetHead()->GetParameters().size(); ++i) {
+        names.push_back(database->GetRelation(r->GetHead()->GetId())->GetHeader().GetVal(i));
     }
+    //}
     return names;
 }
 
 Relation Interpreter::EvaluateRule(Rule *r) {
     std::vector<Relation> rels;
+    //Step 0: Get names for the renaming
     std::vector<std::string> names = GetDBNames(r);
     //Step 1: Create relations for each predicate
     for (Predicate* p : r->GetPredicates()) {
@@ -139,6 +128,8 @@ Relation Interpreter::EvaluateRule(Rule *r) {
 
     //Step 4: Rename the columns to match the main database relation
     rel = rel.Rename(names);
+
+    //Step 5: Union the database relation with the current relation
     database->GetRelation(r->GetHead()->GetId())->Unionize(rel);
     return rel;
 }
