@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="project_4_rule_evaluation"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="project_4_rule_evaluation">
+				<Option output="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug/project_4_rule_evaluation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug/Makefile&quot;  VERBOSE=1 project_4_rule_evaluation"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="project_4_rule_evaluation/fast">
+				<Option output="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug/project_4_rule_evaluation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug/Makefile&quot;  VERBOSE=1 project_4_rule_evaluation/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/AddAutomaton.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/AddAutomaton.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/Automaton.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/ColonAutomaton.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/ColonAutomaton.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/ColonDashAutomaton.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/ColonDashAutomaton.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/CommaAutomaton.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/CommaAutomaton.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/CommentAutomaton.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/CommentAutomaton.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/Database.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/Database.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/DatalogProgram.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/DatalogProgram.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/FactsAutomaton.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/FactsAutomaton.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/Header.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/Header.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/IDAutomaton.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/IDAutomaton.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/Interpreter.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/Interpreter.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/LeftParenAutomaton.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/LeftParenAutomaton.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/Lexer.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/Lexer.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/MultiplyAutomaton.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/MultiplyAutomaton.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/Parameter.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/Parser.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/Parser.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/PeriodAutomaton.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/PeriodAutomaton.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/Predicate.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/Predicate.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/QMarkAutomaton.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/QMarkAutomaton.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/QueriesAutomaton.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/QueriesAutomaton.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/Relation.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/Relation.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/RightParenAutomaton.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/RightParenAutomaton.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/Rule.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/Rule.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/RulesAutomaton.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/RulesAutomaton.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/SchemesAutomaton.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/SchemesAutomaton.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/StringAutomaton.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/StringAutomaton.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/Token.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/Token.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/Tuple.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/Tuple.h">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/main.cpp">
+			<Option target="project_4_rule_evaluation"/>
+		</Unit>
+		<Unit filename="/Users/chandlerrowe/My_Documents/Classes/DiscreteStructures/project-4/project-4-rule-evaluation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
